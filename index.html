@@ -48,7 +48,7 @@
 		  <h1 class="header-author"><a href="/">opbr</a></h1>
 		</hgroup>
 		
-		<p class="header-subtitle">为了爱好，进步一点，再进步一点</p>
+		<p class="header-subtitle">进步一点，再进步一点</p>
 		
 
 		<nav class="header-menu">
@@ -108,7 +108,7 @@
 			  <h1 class="header-author js-header-author">opbr</h1>
 			</hgroup>
 			
-			<p class="header-subtitle"><i class="icon icon-quo-left"></i>为了爱好，进步一点，再进步一点<i class="icon icon-quo-right"></i></p>
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>进步一点，再进步一点<i class="icon icon-quo-right"></i></p>
 			
 			
 			
@@ -154,6 +154,93 @@
           </div>
           <div id="js-content" class="content-ll">
             
+  
+    <article id="post-机器学习" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/11/27/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">机器学习</a>
+    </h1>
+  
+
+        
+        <a href="/2019/11/27/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" class="archive-article-date">
+  	<time datetime="2019-11-27T13:01:11.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-27</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><code>fun.m</code>代码内容如下：</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">f</span> = <span class="title">fun</span><span class="params">(x)</span></span></span><br><span class="line">f=<span class="number">100</span>*(x(<span class="number">1</span>)^<span class="number">2</span> - x(<span class="number">2</span>)^<span class="number">2</span>) + (x(<span class="number">1</span>) - <span class="number">1</span>)^<span class="number">2</span>;</span><br></pre></td></tr></table></figure>
+
+<p><code>gfun.m</code>代码内容如下：</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">gf</span> = <span class="title">gfun</span><span class="params">(x)</span></span></span><br><span class="line">gf=[<span class="number">200</span>*x(<span class="number">1</span>) - <span class="number">2</span>, <span class="number">200</span>*x(<span class="number">2</span>)]';</span><br></pre></td></tr></table></figure>
+
+<p><code>test.m</code>代码内容如下：</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">xk = [<span class="number">-1</span>,<span class="number">1</span>]'; </span><br><span class="line">dk = [<span class="number">1</span>,<span class="number">1</span>]'; </span><br><span class="line">[totalk, alphak, new_xk, fk, new_fk] = armijo(xk,dk)</span><br></pre></td></tr></table></figure>
+
+<p>执行之后的结果：</p>
+<p><img src="https://i.loli.net/2019/11/27/aQOJRYILdVtu2gE.png" alt="test1.PNG"></p>
+<p><strong>当d<sub>k</sub> = - g<sub>k</sub>时:</strong><br>$$<br>g_k = [202x_1 - 2, 200x_2]^T<br>$$</p>
+        
+          <a class="article-more-a" href="/2019/11/27/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/#more">more >></a>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag article-tag-list-link color3">随笔</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/11/27/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" target="_blank" rel="noopener" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
   
     <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
@@ -321,6 +408,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color3">随笔</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
