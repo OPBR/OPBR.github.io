@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="opbr-blog">
 <meta property="og:description" content="In mathematicas, a pandigital number is an integer of n digits that has each digit form 1 to n. For example, both 2314 and1324 are pandigital numbers ; 2345 is NOT a pandigital number. Write a progra">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-11-27T15:20:15.562Z">
+<meta property="og:updated_time" content="2019-11-28T02:51:59.167Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="opbr-blog" type="application/atom+xml">
@@ -183,7 +183,7 @@
 </blockquote>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># -*- coding:utf-8 -*-</span></span><br><span class="line"><span class="comment"># Author:zy</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">pandNum</span><span class="params">(number)</span>:</span></span><br><span class="line">    length = len(str(number))</span><br><span class="line">    element = list(str(number))</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(length):</span><br><span class="line">        <span class="keyword">if</span> int(element[i]) <span class="keyword">not</span> <span class="keyword">in</span> list(range(<span class="number">1</span>, length + <span class="number">1</span>)):</span><br><span class="line">            print(<span class="string">'不是全位数'</span>)</span><br><span class="line">            <span class="keyword">return</span></span><br><span class="line">    print(<span class="string">'是全位数'</span>)</span><br><span class="line">    <span class="keyword">return</span></span><br></pre></td></tr></table></figure>
 
-
+<a id="more"></a>
 
 <blockquote>
 <p>Write a function to check whether a series of integers can form an arithmetic progression.</p>
